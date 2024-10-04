@@ -36,7 +36,7 @@ De applicatie is nu bereikbaar via `http://localhost:8000`.
 
 Hier is een link naar het design voor de website:
 
-[Link naar Figma-ontwerp]
+[[Link naar Figma-ontwerp](https://www.figma.com/design/QxNRrGWOZOhQnhTrq8mPXX/Quiz-game?node-id=0-1&node-type=canvas&t=NyqvWAfu9kjpctuP-0)]
 
 ## Gemaakt door
 
