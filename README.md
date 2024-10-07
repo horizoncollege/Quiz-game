@@ -27,7 +27,8 @@ Dit project is een interactieve quiz-game, gebouwd met een combinatie van modern
 Start de lokale server:
 
 ```bash
-npm run dev```
+npm run dev
+```
 
 ```bash
 php artisan serve
