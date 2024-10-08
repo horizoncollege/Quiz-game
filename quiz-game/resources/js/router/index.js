@@ -1,8 +1,9 @@
-import { createRouter, createWebHistory } from "vue-router";
+import {createRouter, createWebHistory} from "vue-router";
 
 import home from '../components/HomePage.vue';
 import uitleg from '../components/UitlegPage.vue';
 import notFound from '../components/404Page.vue';
+import quizlijst from '../components/QuizLijstPage.vue';
 
 const routes = [
 
@@ -13,6 +14,11 @@ const routes = [
     {
         path: '/uitleg',
         component: uitleg
+    },
+
+    {
+        path: '/quizlijst',
+        component: quizlijst
     },
     {
         path: '/:pathMatch(.*)*',

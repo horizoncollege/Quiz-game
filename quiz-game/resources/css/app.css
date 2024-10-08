@@ -1,9 +1,64 @@
-.link {
-
-    margin: 10px;
+:root {
+    --backgroundPrimary: #2C2C2C;
+    --backgroundBlack: #060606;
+    --primairyColor: #FFD700;
+    --secondaryColor: #8B0000;
+    --accentColor: #C0C0C0;
+    --textColorWhite: #fff;
+    --textColorBlack: #000;
 }
 
-.link.active {
-    background-color: red;
-    color: white;
+body {
+    background-color: var(--backgroundPrimary);
+    margin: 0;
+}
+
+/* standaard styling */
+
+/* styling alle content blokken binnen content-rows */
+.content-row {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.content-blok {
+    width: 95%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+/* paragraaf generic styling */
+
+.paragraaf-header {
+    font-size: 3rem;
+    line-height: 2.5rem;
+    padding-bottom: 5px;
+    font-weight: 800;
+    width: min-content;
+    margin: auto;
+    color: var(--textColorWhite);
+    text-wrap: nowrap;
+    text-align: center;
+
+}
+
+
+.paragraaf-tekst-content {
+    color: var(--textColorWhite);
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
+}
+
+/*Mobile styling*/
+@media (max-width: 992px) {
+    .paragraaf-header {
+        text-wrap: wrap;
+        width: 90%;
+    }
+
+    .paragraaf-tekst-content{
+        max-width: 70%;
+
+    }
 }
