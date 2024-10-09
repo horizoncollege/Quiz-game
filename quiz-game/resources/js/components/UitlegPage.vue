@@ -22,12 +22,11 @@
                 <div class="paragraaf-tekst">
                     <h2 class="paragraaf-header">Hoe werken de quizzen?</h2>
                     <div class="paragraaf-tekst-content">
-                        <p>
-                            De quizzen werken simpel
-                            <ul>Stap 1: Klik op de quiz die je wil doen in de quizlijst.</ul>
-                            <ul>Stap 2: De vragen komen 1 voor 1 op je scherm klik op het goede antwoord.</ul>
-                            <ul>Stap 3: Nadat je de laatste vraag heb beantwoord zie je je score en tijd.</ul>
-                        </p>
+                        <p>De quizzen werken simpel </p>
+                        <ul>Stap 1: Klik op de quiz die je wil doen in de quizlijst.</ul>
+                        <ul>Stap 2: De vragen komen 1 voor 1 op je scherm klik op het goede antwoord.</ul>
+                        <ul>Stap 3: Nadat je de laatste vraag heb beantwoord zie je je score en tijd.</ul>
+
                     </div>
                 </div>
             </div>
@@ -72,6 +71,7 @@
 .header-uitleg {
     font-size: 4rem;
 }
+
 .paragraaf-tekst-content ul {
     margin: 0;
 }

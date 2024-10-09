@@ -1,5 +1,4 @@
-<script setup lang="ts">
-
+<script>
 </script>
 
 
@@ -7,8 +6,8 @@
     <nav>
         <div class="header">
             <div class="header-logo">
-<!--                <img src="/../img/octo.png" alt="logo">-->
-                <router-link class="link" to="/">thuis</router-link>
+
+                <router-link class="link link-logo" to="/">  <img src="../../../img/octo.png" alt="logo"></router-link>
 
             </div>
 
@@ -17,7 +16,7 @@
                 <router-link class="link" to="/uitleg">Uitleg</router-link>
             </div>
             <div class="header-login">
-                <router-link class="link" to="/">placeholder</router-link>
+                <img src="../../../img/login.png" alt="login">
 
             </div>
         </div>
@@ -49,11 +48,29 @@
     width: min-content;
     margin: auto 10% auto auto;
     display: flex;
+    max-height: 100%;
+}
+
+.header-login img{
+    max-width: 50px;
 }
 
 .header-logo {
     width: min-content;
     margin: auto auto auto 10%;
+    display: flex;
+    max-height: 100%;
+}
+
+.header-logo img{
+    max-height: 80%;
+    object-fit: contain;
+    max-width: 50px;
+    margin: auto;
+}
+
+.link-logo{
+    margin: 0px !important;
     display: flex;
 }
 
