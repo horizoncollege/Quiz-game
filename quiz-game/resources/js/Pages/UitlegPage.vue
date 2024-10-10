@@ -79,6 +79,7 @@ export default {
 <style>
 .header-uitleg {
     font-size: 4rem;
+    padding-bottom: 2rem;
 }
 
 .paragraaf-tekst-content ul {

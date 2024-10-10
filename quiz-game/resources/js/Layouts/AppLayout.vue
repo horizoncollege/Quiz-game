@@ -1,5 +1,5 @@
 <script>
-import { Link } from '@inertiajs/vue3';
+import {Link} from '@inertiajs/vue3';
 
 export default {
     components: {
@@ -13,28 +13,20 @@ export default {
     <nav>
         <div class="header">
             <div class="header-logo">
-
-                <link class="link link-logo" href="/">
-                <img src="../../../img/octo.png" alt="logo">
-                </link>
-
+                <Link class="link link-logo" href="/">
+                    <img src="../../../img/octo.png" alt="logo">
+                </Link>
             </div>
-
             <div class="header-links">
                 <Link class="link" href="/quizlijst">Quizlijst</Link>
                 <Link class="link" href="/uitleg">Uitleg</Link>
             </div>
             <div class="header-login">
-                <img src="../../../img/login.png" alt="login">
+                <Link> <img src="../../../img/login.png" alt="login"> </Link>
 
             </div>
         </div>
     </nav>
-
-<!--    <main>-->
-<!--        <router-view/>-->
-<!--    </main>-->
-
 </template>
 
 
@@ -60,7 +52,7 @@ export default {
     max-height: 100%;
 }
 
-.header-login img{
+.header-login img {
     max-width: 50px;
 }
 
@@ -71,14 +63,14 @@ export default {
     max-height: 100%;
 }
 
-.header-logo img{
+.header-logo img {
     max-height: 80%;
     object-fit: contain;
     max-width: 50px;
     margin: auto;
 }
 
-.link-logo{
+.link-logo {
     margin: 0px !important;
     display: flex;
 }

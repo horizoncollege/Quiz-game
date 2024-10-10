@@ -39,6 +39,7 @@ export default {
 <style>
 .header-homepagina{
     font-size: 4rem;
+    padding-bottom: 2rem;
 }
 
 
