@@ -20,6 +20,7 @@ class DatabaseSeeder extends Seeder
             ScoresSeeder::class,
             QuizSeeder::class,
             VragenSeeder::class,
+            AntwoordenSeeder::class,
         ]);
     }
 }

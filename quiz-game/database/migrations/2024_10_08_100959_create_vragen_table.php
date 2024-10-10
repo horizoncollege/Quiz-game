@@ -17,7 +17,6 @@ return new class extends Migration
             $table->id();
             $table->foreignId('QuizID')->constrained('quiz');
             $table->string('Vraag');
-            $table->boolean('IsCorrect');
         });
     }
 
