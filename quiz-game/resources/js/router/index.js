@@ -1,9 +1,9 @@
 import {createRouter, createWebHistory} from "vue-router";
 
-import home from '../components/HomePage.vue';
-import uitleg from '../components/UitlegPage.vue';
-import notFound from '../components/404Page.vue';
-import quizlijst from '../components/QuizLijstPage.vue';
+import home from '../Pages/HomePage.vue';
+import uitleg from '../Pages/UitlegPage.vue';
+import notFound from '../Pages/404Page.vue';
+import quizlijst from '../Pages/QuizLijstPage.vue';
 
 const routes = [
 

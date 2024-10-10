@@ -19,10 +19,10 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 
-Route::prefix('quiz')->group(function () {
-    Route::get('/', [QuizController::class,'index']);
-    ->namespace('quiz');
-
-
-
-})
+//Route::prefix('quiz')->group(function () {
+//    Route::get('/', [QuizController::class,'index']);
+//    ->namespace('quiz');
+//
+//
+//
+//})

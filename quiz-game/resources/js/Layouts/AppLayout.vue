@@ -1,4 +1,11 @@
 <script>
+import { Link } from '@inertiajs/vue3';
+
+export default {
+    components: {
+        Link,
+    },
+};
 </script>
 
 
@@ -7,13 +14,15 @@
         <div class="header">
             <div class="header-logo">
 
-                <router-link class="link link-logo" to="/">  <img src="../../../img/octo.png" alt="logo"></router-link>
+                <link class="link link-logo" href="/">
+                <img src="../../../img/octo.png" alt="logo">
+                </link>
 
             </div>
 
             <div class="header-links">
-                <router-link class="link" to="/quizlijst">Quizlijst</router-link>
-                <router-link class="link" to="/uitleg">Uitleg</router-link>
+                <Link class="link" href="/quizlijst">Quizlijst</Link>
+                <Link class="link" href="/uitleg">Uitleg</Link>
             </div>
             <div class="header-login">
                 <img src="../../../img/login.png" alt="login">
@@ -22,9 +31,9 @@
         </div>
     </nav>
 
-    <main>
-        <router-view/>
-    </main>
+<!--    <main>-->
+<!--        <router-view/>-->
+<!--    </main>-->
 
 </template>
 

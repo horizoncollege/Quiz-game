@@ -1,5 +1,15 @@
-<template>
+<script>
+import applayout from '@/Layouts/AppLayout.vue';
 
+export default {
+    components: {
+        applayout
+    }
+};
+</script>
+
+<template>
+    <applayout></applayout>
     <div class="content-row">
         <div class="content-blok">
             <div class="paragraaf">
@@ -65,8 +75,7 @@
     </div>
 
 </template>
-<script setup lang="ts">
-</script>
+
 <style>
 .header-uitleg {
     font-size: 4rem;
